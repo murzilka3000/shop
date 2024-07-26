@@ -1,4 +1,69 @@
+@import '/src/assets/styles/variables.scss';
+
 @mixin flexCenter() {
     display: flex;
     align-items: center;
 }
+
+/* fonts start */
+
+@mixin h1() {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 105%;
+    color: $text-and-components-black;
+    @media screen and (max-width: 767px) {
+        font-size: 24px;
+        line-height: 133%;
+    }
+}
+
+@mixin h2() {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 119%;
+    letter-spacing: 0.01em;
+    color: $text-and-components-black;
+    @media screen and (max-width: 767px) {
+        font-size: 18px;
+        line-height: 133%;
+    }
+}
+
+@mixin h3() {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 109%;
+    letter-spacing: 0.01em;
+    color: $text-and-components-black;
+    @media screen and (max-width: 767px) {
+        font-size: 16px;
+        line-height: 125%;
+    }
+}
+
+@mixin h4() {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.01em;
+    color: $text-and-components-black;
+    @media screen and (max-width: 767px) {
+        font-size: 14px;
+        line-height: 143%;
+    }
+}
+
+@mixin h5() {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: $text-and-components-black;
+    @media screen and (max-width: 767px) {
+        font-size: 13px;
+        line-height: 154%;
+    }
+}
+
+/* fonts end */

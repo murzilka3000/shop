@@ -25,8 +25,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	max-width: 1300px;
-	margin: 0 auto;
 	font-family: "Roboto", sans-serif;
 }
 ol, ul {
@@ -49,3 +47,7 @@ table {
   box-sizing: border-box;
 }
 
+.wrapper {
+	max-width: 1300px;
+	margin: 0 auto;
+}
